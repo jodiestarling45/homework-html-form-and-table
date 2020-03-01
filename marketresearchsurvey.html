@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Market Research Survey</title>
+    <style>
+        body{
+            background-color: chocolate;
+            color: black;
+        }
+        #ok{
+            width: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Market Research Survey</h1>
+Please take a few moments to complete this satisfaction survey.
+<form>
+    <fieldset><legend>Market Research Survey</legend>
+    <p>What is your age range?</p><br>
+        <select>
+            <option>18-24</option>
+            <option>25-34</option>
+            <option>35-50</option>
+            <option>50+</option>
+        </select>
+     <p>What is your yearly income range?</p>
+        <select>
+            <option>$0-2500</option>
+            <option>$2501-50000</option>
+            <option>$50001-100000</option>
+            <option>$100000+</option>
+        </select>
+      <p>Gender Identity</p>
+        <input type="radio">Male<br>
+        <input type="radio">Female<br>
+        <input type="radio">Nonbinary<br>
+        <input type="radio">other<br>
+        <input type="text"><br>
+      <p>Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+        <input type="checkbox">Product 1<br>
+        <input type="checkbox">Product 2<br>
+        <input type="checkbox">Product 3<br>
+      <p>How often would you use our new product?</p>
+        <input type="radio">Daily<br>
+        <input type="radio">Weekly<br>
+        <input type="radio">Monthly<br>
+      <p>What would you pay for the new product?</p>
+        <p>$<input type="text">.<input type="text" id="ok"></p>
+
+
+    </fieldset>
+
+</form>
+</body>
+</html>
